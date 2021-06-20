@@ -105,6 +105,21 @@ h3 img {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
+main h1 {
+  margin-bottom: 2.5rem;
+}
+
+.lead {
+  margin-top: 20px;
+}
+.accordion {
+  color: white;
+}
+.accordion-item {
+  background-color: black;
+
+}
+
 
 
 /*
