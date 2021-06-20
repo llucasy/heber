@@ -89,6 +89,10 @@ h3 img {
   .nav-masthead {
     float: right;
   }
+  iframe {
+    width: 300;
+    height: 200;
+  }
 }
 
 
