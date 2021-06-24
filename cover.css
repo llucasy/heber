@@ -57,10 +57,17 @@ h3 img {
 
 .masthead {
   margin-bottom: 55px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: rgb(1, 80, 1);
+  border: 2px solid white;
+  padding-right: 30px;
 }
 
 .masthead-brand {
   margin-bottom: 0;
+  width: 200px;
 }
 
 .nav-masthead .nav-link {
@@ -97,7 +104,7 @@ h3 img {
     height: 315px;
   }
   .quadrado {
-    width: 400px;
+    width: 100px;
   }
 }
 
@@ -124,9 +131,8 @@ main h1 {
 .quadrado {
   border: 2px solid white;
   background-color: black;
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
+  width: 500px;
+  margin: 100px auto;
   padding: 10px;
 }
 
@@ -136,17 +142,30 @@ main h1 {
 }
 
 .quadrado a {
-  position: relative;
-  bottom: -40px;
+  margin: 11px;
+}
+
+.limitado {
+  display: block;
+  color: red;
 }
 
 .precos {
   display: block;
   text-decoration: line-through;
+  font-size: 19px;
 }
 
 .precosPor {
+  margin-top: 10px;
   display: block;
+  font-size: 19px;
+}
+
+.off {
+  display: block;
+  font-size: 35px;
+  background-color: royalblue;
 }
 
 .accordion-button {
@@ -159,6 +178,23 @@ main h1 {
   color: white;
   font-size: 23px;
   text-align: justify;
+}
+
+#perfil {
+  width: 500px;
+  margin: 0 auto;
+  height: 200px;
+  border-radius: 12px;
+  background-color: black;
+}
+
+#perfil p {
+  width: 400px;
+  height: 70px;
+  margin: 0 auto;
+  border-radius: 12px;
+  color: black;
+  background-color: white;
 }
 
 /*
