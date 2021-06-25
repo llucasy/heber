@@ -92,22 +92,6 @@ h3 img {
   border-bottom-color: #fff;
 }
 
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
-  iframe {
-    width: 560px;
-    height: 315px;
-  }
-  .quadrado {
-    width: 100px;
-  }
-}
-
 /*
  * Capa
  */
@@ -131,7 +115,7 @@ main h1 {
 .quadrado {
   border: 2px solid white;
   background-color: black;
-  width: 500px;
+  width: 100%;
   margin: 100px auto;
   padding: 10px;
 }
@@ -181,15 +165,16 @@ main h1 {
 }
 
 #perfil {
-  width: 500px;
+  width: 100%;
   margin: 0 auto;
   height: 200px;
   border-radius: 12px;
   background-color: black;
+  border: 2px solid white;
 }
 
 #perfil p {
-  width: 400px;
+  width: 90%;
   height: 70px;
   margin: 0 auto;
   border-radius: 12px;
@@ -197,9 +182,44 @@ main h1 {
   background-color: white;
 }
 
+#perfil i {
+  font-size: 60px;
+  margin: 10px;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  border-radius: 40px;
+}
+
 /*
- * Footer
- */
+* Footer
+*/
 .mastfoot {
   color: rgba(255, 255, 255, 0.5);
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+  iframe {
+    width: 560px;
+    height: 315px;
+  }
+  .quadrado {
+    width: 500px;
+  }
+  #perfil {
+    width: 500px;
+  }
 }
