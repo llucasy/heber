@@ -175,17 +175,25 @@ main h1 {
 
 #perfil p {
   width: 90%;
-  height: 70px;
+  height: 80px;
   margin: 0 auto;
   border-radius: 12px;
   color: black;
   background-color: white;
+  font-size: 20px;
 }
 
-#perfil i {
-  font-size: 60px;
+#perfil .fab {
+  font-size: 75px;
   margin: 10px;
   background: #d6249f;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  border-radius: 40px;
+  background: transparent;
+  background-color: cornflowerblue;
+}
+
+#perfil .fab:hover {
   background: radial-gradient(
     circle at 30% 107%,
     #fdf497 0%,
@@ -194,8 +202,11 @@ main h1 {
     #d6249f 60%,
     #285aeb 90%
   );
-  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
-  border-radius: 40px;
+}
+
+#perfil .fas {
+  font-size: 24px;
+  line-height: 44px;
 }
 
 /*
