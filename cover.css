@@ -105,6 +105,8 @@ h3 img {
 main h1 {
   margin-bottom: 2.5rem;
   font-weight: bolder;
+  font-size: 36px;
+  text-shadow: 1px 1px 9px black;
 }
 
 .lead {
