@@ -118,7 +118,7 @@ main h1 {
 }
 
  img {
-  width: 800px;
+  width: 380px;
   margin-bottom: 55px;
   margin-top: 10px;
 }
@@ -256,6 +256,9 @@ main h1 {
   }
   .quadrado {
     width: 500px;
+  }
+  img {
+    width: 800px;
   }
   #perfil {
     width: 500px;
