@@ -117,11 +117,18 @@ main h1 {
   margin-bottom: 80px;
 }
 
+ img {
+  width: 800px;
+  margin-bottom: 55px;
+  margin-top: 10px;
+}
+
 .quadrado {
   border: 2px solid white;
   background-color: black;
   width: 100%;
   margin: 100px auto;
+  margin-bottom: 40px;
   padding: 10px;
 }
 
@@ -147,12 +154,22 @@ main h1 {
 
 .precos + .precos {
   text-decoration: none;
+  margin-bottom: 10px;
 }
 
 .precosPor {
-  margin-top: 10px;
   display: block;
   font-size: 19px;
+}
+
+.divCupom p{
+  font-size: 26px;
+  margin-top: 0;
+}
+
+.cupom {
+  font-weight: bold;
+  background-color: black;
 }
 
 .off {
