@@ -32,6 +32,7 @@ a:hover {
 html,
 body {
   background-color: #333;
+  font-size: 12px;
 }
 
 body {
@@ -43,7 +44,7 @@ body {
 }
 
 .cover-container {
-  max-width: 62em;
+  max-width: 62rem;
 }
 
 /*
