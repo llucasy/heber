@@ -98,8 +98,13 @@ h3 img {
 }
 
 /*
- * Capa
+ * Corpo
  */
+
+ .espaco {
+   margin-top: 27px;
+ }
+
 .cover {
   padding: 0 1.5rem;
 }
