@@ -101,6 +101,11 @@ h3 img {
  * Corpo
  */
 
+ .container {
+	margin: 20px auto;
+	max-width: 800px;
+}
+
  .espaco {
    margin-top: 46px;
  }
