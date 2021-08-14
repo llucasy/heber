@@ -150,6 +150,7 @@ main h1 {
   background-color: black;
   width: 100%;
   margin: 100px auto;
+  margin-top: -30px;
   margin-bottom: 40px;
   padding: 10px;
 }
