@@ -101,6 +101,15 @@ h3 img {
  * Corpo
  */
 
+ .lead .texto {
+   margin-top: 46px;
+ }
+
+ .lead .texto b {
+   display: block;
+   margin-bottom: 34px;
+ }
+
  .container {
 	margin: 20px auto;
 	max-width: 800px;
