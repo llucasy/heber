@@ -270,6 +270,10 @@ main h1 {
   color: rgba(255, 255, 255, 0.5);
 }
 
+address {
+  color: green;
+}
+
 @media (min-width: 640px) {
   .masthead-brand {
     float: left;
