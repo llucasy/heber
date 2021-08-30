@@ -101,23 +101,10 @@ h3 img {
  * Corpo
  */
 
- .lead .texto {
-   margin-top: 46px;
- }
-
- .lead .texto b {
-   display: block;
-   margin-bottom: 34px;
- }
-
  .container {
 	margin: 20px auto;
 	max-width: 800px;
 }
-
- .espaco {
-   margin-top: 46px;
- }
 
 .cover {
   padding: 0 1.5rem;
@@ -214,6 +201,10 @@ main h1 {
   color: white;
   font-size: 23px;
   text-align: justify;
+}
+
+main img {
+  width: 250px;
 }
 
 #perfil {
