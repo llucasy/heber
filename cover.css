@@ -210,7 +210,8 @@ main img {
 #perfil {
   width: 100%;
   margin: 50px auto;
-  margin-top: 17px;
+  margin-top: 25px;
+  margin-bottom: 24px;
   height: 200px;
   border-radius: 12px;
   background-color: black;
@@ -259,6 +260,7 @@ main img {
 */
 .mastfoot {
   color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
 }
 
 address {
